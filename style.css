@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+
+}
+[class^="col"] {
+  height: 200px;
+  line-height: 100px;
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+  color: black;
+}
