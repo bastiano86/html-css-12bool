@@ -4,16 +4,27 @@
   box-sizing: border-box;
 }
 .container {
-  width: 1200px;
-  display: flex;
-  flex-direction: row;
-
+  margin: 0 auto;
+  width: 80%;
 }
+
+.row {
+  display: flex;
+}
+
 [class^="col"] {
-  height: 200px;
-  line-height: 100px;
+  height: 150px;
   text-align: center;
   background-color: pink;
   border: 1px solid black;
   color: black;
+}
+
+.nested {
+  background-color: hotpink;
+  border: 3px solid pink;
+}
+
+p {
+  margin-top: 75px;
 }
